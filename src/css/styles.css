@@ -1,0 +1,112 @@
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(145deg, #e698a2, #9cc2e4, #a4c2c4, #b485e9);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+a {
+    text-decoration: none;
+}
+
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 20px;
+}
+
+.info-likes,
+.info-views,
+.info-comments,
+.info-downloads {
+    font-family: Arial, sans-serif;
+    color: rgb(32, 32, 32)
+}
+
+
+.search-form input {
+    padding: 10px;
+    width: 70%;
+    border-radius: 5px 0 0 5px;
+    border: 1px solid #ddd;
+}
+
+.search-form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.btn-search {
+    padding: 10px 20px;
+    background-color: #4caf50;
+    color: #ffffff;
+    border: none;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+}
+
+.btn-search:hover {
+    background-color: #45a049;
+}
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+}
+
+.photo-card {
+    background-color: #ffffff;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    margin: 20px;
+    overflow: hidden;
+    transition: transform 0.3s;
+}
+
+.photo-card:hover {
+    transform: scale(1.03);
+}
+
+.photo-card img {
+    width: 100%;
+    height: auto;
+}
+
+.info {
+    padding: 10px;
+    font-family: Arial, sans-serif;
+}
+
+.info-item {
+    margin: 5px 0;
+}
+
+.item-text {
+    margin-left: 5px;
+    text-decoration: none;
+}
+
+.gallery-link {
+    text-decoration: none;
+}
+
+.load-more-hidden {
+    display: none;
+    margin: 20px auto;
+    padding: 10px 20px;
+    background-color: #4caf50;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.load-more-hidden:hover {
+    background-color: #45a049;
+}
