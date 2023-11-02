@@ -1,8 +1,13 @@
+html {
+    height: 100%;
+}
+
 body {
     font-family: Arial, sans-serif;
     background: linear-gradient(145deg, #e698a2, #9cc2e4, #a4c2c4, #b485e9);
-    background-size: cover;
+    background-size: 100%;
     background-repeat: no-repeat;
+    height: 100%;
 }
 
 a {
