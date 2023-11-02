@@ -1,24 +1,32 @@
-html {
+html,
+body {
     height: 100%;
+    margin: 0;
+    padding: 0;
 }
 
 body {
     font-family: Arial, sans-serif;
-    background: linear-gradient(145deg, #e698a2, #9cc2e4, #a4c2c4, #b485e9);
-    background-size: 100%;
-    background-repeat: no-repeat;
-    height: 100%;
+
 }
 
 a {
     text-decoration: none;
 }
 
+.content {
+    flex: 1;
+}
+
 .container {
-    max-width: 600px;
+    min-width: 600px;
     margin: 0 auto;
     text-align: center;
     padding: 20px;
+    background: linear-gradient(145deg, #e698a2, #9cc2e4, #a4c2c4, #b485e9);
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
 }
 
 .info-likes,
@@ -28,7 +36,6 @@ a {
     font-family: Arial, sans-serif;
     color: rgb(32, 32, 32)
 }
-
 
 .search-form input {
     padding: 10px;
@@ -42,6 +49,10 @@ a {
     justify-content: center;
     align-items: center;
     margin-bottom: 20px;
+    width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+
 }
 
 .btn-search {
